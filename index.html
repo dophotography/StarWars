@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
         <title>Star Wars</title>
     </head>
     <body>
@@ -21,6 +22,7 @@
                     <a href="#" class="nav-link">Трейлеры</a>
                 </nav>
             </header>
+
             <main>
                 <div class="hero">
                     <span class="hero-subtitle">Эпизод XI</span>
@@ -33,12 +35,89 @@
                     </p>
                     <span class="hero-premier">Премьера</span>
                     <span class="hero-date">19 декабря 2019</span>
-                    <button class="button-play hero-button-play">
+                    <a data-fancybox="video-gallery" href="https://www.youtube.com/watch?v=8Qn_spdM5Zg" class="button-play hero-button-play">
                         Смотреть трейлер
-                    </button>
+                    </a>
                 </div>
+                <!-- /.hero -->
+
+                <div class="episodes">
+                    <h2 class="episodes-title">Предыдущие эпизоды</h2>
+                    <div class="slider">
+                        <div class="slider-item episode-1">
+                            <div class="slider-year">1977</div>
+                            <h3 class="slider-title">Эпизод IV: <br/> Новая надежда</h3>
+                            <div class="slider-rating">
+                                <span class="slider-rating-label">Рейтинг</span>
+                            </div>
+                            <img src="img/slider/film-1.png" alt="Film-1" class="slider-image">
+                        </div>
+                        <div class="slider-item episode-2">
+                            <div class="slider-year">1980</div>
+                            <h3 class="slider-title">Эпизод V: <br/> Империя наносит ответный удар</h3>
+                            <div class="slider-rating">
+                                <span class="slider-rating-label">Рейтинг</span>
+                            </div>
+                            <img src="img/slider/film-2.png" alt="Film-2" class="slider-image">
+                        </div>
+                        <div class="slider-item episode-3">
+                            <div class="slider-year">1983</div>
+                            <h3 class="slider-title">Эпизод VI: <br/> Возвращение джедая</h3>
+                            <div class="slider-rating">
+                                <span class="slider-rating-label">Рейтинг</span>
+                            </div>
+                            <img src="img/slider/film-3.png" alt="Film-3" class="slider-image">
+                        </div>
+                        <div class="slider-item episode-4">
+                            <div class="slider-year">1999</div>
+                            <h3 class="slider-title">Эпизод I: <br/> Скрытая угроза</h3>
+                            <div class="slider-rating">
+                                <span class="slider-rating-label">Рейтинг</span>
+                            </div>
+                            <img src="img/slider/film-4.png" alt="Film-4" class="slider-image">
+                        </div>
+                        <div class="slider-item episode-1">
+                            <div class="slider-year">1977</div>
+                            <h3 class="slider-title">Эпизод IV: <br/> Новая надежда</h3>
+                            <div class="slider-rating">
+                                <span class="slider-rating-label">Рейтинг</span>
+                            </div>
+                            <img src="img/slider/film-1.png" alt="Film-5" class="slider-image">
+                        </div>
+                        <div class="slider-item episode-2">
+                            <div class="slider-year">1980</div>
+                            <h3 class="slider-title">Эпизод V: <br/> Империя наносит ответный удар</h3>
+                            <div class="slider-rating">
+                                <span class="slider-rating-label">Рейтинг</span>
+                            </div>
+                            <img src="img/slider/film-2.png" alt="Film-6" class="slider-image">
+                        </div>
+                        <div class="slider-item episode-3">
+                            <div class="slider-year">1983</div>
+                            <h3 class="slider-title">Эпизод VI: <br/> Возвращение джедая</h3>
+                            <div class="slider-rating">
+                                <span class="slider-rating-label">Рейтинг</span>
+                            </div>
+                            <img src="img/slider/film-3.png" alt="Film-7" class="slider-image">
+                        </div>
+                        <div class="slider-item episode-4">
+                            <div class="slider-year">1999</div>
+                            <h3 class="slider-title">Эпизод I: <br/> Скрытая угроза</h3>
+                            <div class="slider-rating">
+                                <span class="slider-rating-label">Рейтинг</span>
+                            </div>
+                            <img src="img/slider/film-4.png" alt="Film-8" class="slider-image">
+                        </div>
+                        <!-- /.slider-item -->
+                    </div>
+                    <!-- /.slider -->
+                </div>
+                <!-- /.episodes -->
+
             </main>
+
         </div>
         <!-- /.container -->
     </body>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 </html>
