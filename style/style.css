@@ -14,7 +14,7 @@
 }
 
 body {
-    background:#070506 url('/img/main-bg.jpg') no-repeat top 15% right 110%;
+    background:#070506 url('../img/main-bg.jpg') no-repeat top 15% right 110%;
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
@@ -93,7 +93,6 @@ body {
     text-decoration: none;
     font-size: 14px;
     line-height: 16px;
-    display: inline-block;
 }
 
 .button-play:after{
