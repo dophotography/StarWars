@@ -14,8 +14,7 @@
 }
 
 body {
-    background-color:#ffa500;
-    background: url('/img/main-bg.png') no-repeat top 15% right 110%;
+    background-color:#070506 url('/img/main-bg.png') no-repeat top 15% right 110%;
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
