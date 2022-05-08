@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color:orange;
+    background-color:#ffa500;
     background: url('/img/main-bg.png') no-repeat top 15% right 110%;
     background-size: cover;
     background-attachment: fixed;
