@@ -14,7 +14,7 @@
 }
 
 body {
-    background:#010101 url('../img/main-bg-2.png') no-repeat top right -90%;
+    background:#010101 url('../img/main-bg.png') no-repeat top right -90%;
     background-size: contain;
     background-attachment: fixed;
     color: #fff;
