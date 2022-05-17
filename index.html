@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
         <title>Star Wars</title>
     </head>
@@ -25,7 +26,7 @@
 
             <main>
                 <div class="hero">
-                    <span class="hero-subtitle">Эпизод XI</span>
+                    <span class="hero-subtitle FadeInRight">Эпизод XI</span>
                     <h1 class="hero-title">Скайуокер. Восход</h1>
                     <p class="hero-text">
                         Фильм завершает невероятную историю семьи Скайуокеров,
@@ -43,7 +44,7 @@
 
                 <div class="episodes">
                     <h2 class="episodes-title">Предыдущие эпизоды</h2>
-                    <div class="slider">
+                    <div class="owl-carousel slider">
                         <div class="slider-item episode-1">
                             <div class="slider-year">1977</div>
                             <h3 class="slider-title">Эпизод IV: <br/> Новая надежда</h3>
@@ -64,6 +65,13 @@
                             <h3 class="slider-title">Эпизод V: <br/> Империя наносит ответный удар</h3>
                             <div class="slider-rating">
                                 <span class="slider-rating-label">Рейтинг</span>
+                                <span class="slider-rating-stars">
+                                    <i class="star"></i>
+                                    <i class="star"></i>
+                                    <i class="star"></i>
+                                    <i class="star star-o"></i>
+                                    <i class="star star-o"></i>
+                                </span>
                             </div>
                             <img src="img/slider/film-2.png" alt="Film-2" class="slider-image">
                         </div>
@@ -72,6 +80,13 @@
                             <h3 class="slider-title">Эпизод VI: <br/> Возвращение джедая</h3>
                             <div class="slider-rating">
                                 <span class="slider-rating-label">Рейтинг</span>
+                                <span class="slider-rating-stars">
+                                    <i class="star"></i>
+                                    <i class="star"></i>
+                                    <i class="star"></i>
+                                    <i class="star"></i>
+                                    <i class="star star-o"></i>
+                                </span>
                             </div>
                             <img src="img/slider/film-3.png" alt="Film-3" class="slider-image">
                         </div>
@@ -80,6 +95,13 @@
                             <h3 class="slider-title">Эпизод I: <br/> Скрытая угроза</h3>
                             <div class="slider-rating">
                                 <span class="slider-rating-label">Рейтинг</span>
+                                <span class="slider-rating-stars">
+                                    <i class="star"></i>
+                                    <i class="star"></i>
+                                    <i class="star"></i>
+                                    <i class="star"></i>
+                                    <i class="star"></i>
+                                </span>
                             </div>
                             <img src="img/slider/film-4.png" alt="Film-4" class="slider-image">
                         </div>
@@ -88,6 +110,13 @@
                             <h3 class="slider-title">Эпизод IV: <br/> Новая надежда</h3>
                             <div class="slider-rating">
                                 <span class="slider-rating-label">Рейтинг</span>
+                                <span class="slider-rating-stars">
+                                    <i class="star"></i>
+                                    <i class="star"></i>
+                                    <i class="star"></i>
+                                    <i class="star"></i>
+                                    <i class="star star-o"></i>
+                                </span>
                             </div>
                             <img src="img/slider/film-1.png" alt="Film-5" class="slider-image">
                         </div>
@@ -96,6 +125,13 @@
                             <h3 class="slider-title">Эпизод V: <br/> Империя наносит ответный удар</h3>
                             <div class="slider-rating">
                                 <span class="slider-rating-label">Рейтинг</span>
+                                <span class="slider-rating-stars">
+                                    <i class="star"></i>
+                                    <i class="star"></i>
+                                    <i class="star star-o"></i>
+                                    <i class="star star-o"></i>
+                                    <i class="star star-o"></i>
+                                </span>
                             </div>
                             <img src="img/slider/film-2.png" alt="Film-6" class="slider-image">
                         </div>
@@ -104,6 +140,13 @@
                             <h3 class="slider-title">Эпизод VI: <br/> Возвращение джедая</h3>
                             <div class="slider-rating">
                                 <span class="slider-rating-label">Рейтинг</span>
+                                <span class="slider-rating-stars">
+                                    <i class="star"></i>
+                                    <i class="star"></i>
+                                    <i class="star"></i>
+                                    <i class="star"></i>
+                                    <i class="star"></i>
+                                </span>
                             </div>
                             <img src="img/slider/film-3.png" alt="Film-7" class="slider-image">
                         </div>
@@ -112,6 +155,13 @@
                             <h3 class="slider-title">Эпизод I: <br/> Скрытая угроза</h3>
                             <div class="slider-rating">
                                 <span class="slider-rating-label">Рейтинг</span>
+                                <span class="slider-rating-stars">
+                                    <i class="star"></i>
+                                    <i class="star"></i>
+                                    <i class="star"></i>
+                                    <i class="star star-o"></i>
+                                    <i class="star star-o"></i>
+                                </span>
                             </div>
                             <img src="img/slider/film-4.png" alt="Film-8" class="slider-image">
                         </div>
@@ -126,5 +176,9 @@
         </div>
         <!-- /.container -->
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="/style/owl.carousel.min.css">
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/main.js"></script>
 </html>

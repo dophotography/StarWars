@@ -14,8 +14,8 @@
 }
 
 body {
-    background:#070506 url('../img/main-bg.jpg') no-repeat top 15% right 110%;
-    background-size: cover;
+    background:#010101 url('../img/main-bg-2.png') no-repeat top right -90%;
+    background-size: contain;
     background-attachment: fixed;
     color: #fff;
     font-family: 'Roboto', sans-serif;
@@ -186,4 +186,62 @@ body {
 
 .star-o {
     background: url("/img/stars/star-o.svg") no-repeat center;
+}
+
+.slider-nav-left {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: transparent url('/img/arrows/arrow-left.svg') no-repeat center;
+    margin-right: 15px;
+    margin-top: 27px;
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+.slider-nav-right {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: transparent url('/img/arrows/arrow-right.svg') no-repeat center;
+    margin-top: 27px;
+    cursor: pointer;
+}
+
+.slider-nav-right span, .slider-nav-left span {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .hero-subtitle{
+        font-size: 24px;
+    }
+
+    .hero-title{
+        font-size: 36px;
+        line-height: 120%;
+    }
+
+    .hero-text{
+        max-width: 375px ;
+        font-size: 16px;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-logo{
+        margin-bottom: 30px;
+    }
+    
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-link{
+        margin-bottom: 10px;
+    }
 }
